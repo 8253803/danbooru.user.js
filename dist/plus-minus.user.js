@@ -34,7 +34,7 @@ span:has(.wiki-link):after {
   else if (params.has('tags'))
     query = params.get('tags')
   else
-    return
+    query = ''
 
   $('.tag-list .search-tag').each((i, el) => {
     const $el = $(el)
